@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Главная / Sitename</title>
+<meta charset="utf-8">
+<meta name="description" content="...">
+<meta name="keywords" content="...">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta property="og:type" content="website">
+    <link rel="stylesheet" href="/static/libs/swiper/css/swiper.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/static/libs/circletype/circletype.min.js"></script>
+    <script src="/static/libs/swiper/js/swiper.min.js"></script>
+    <script src="/static/libs/RobinHerbots-inputmask/jquery.inputmask.bundle.min.js"></script>
+  <link href="/static/css/style.css" rel="stylesheet"></head>
+  <body>
+<header class="header">
+  <div class="header-top">
+    <div class="container">
+      <div class="header-top__inner">
+        <div class="header-top__contacts">заказ воды и кофе В МОСКВЕ <a href="tel:+7 (495) 258-25-78">+7 (495) 258-25-78</a>И В САНКТ-ПЕТЕРБУРГЕ <a href="tel:+7 (812) 448-68-68">+7 (812) 448-68-68 </a></div>
+        <div class="header-top__region">Регион: <span class="header-top__dropdown">Москва</span></div>
+        <div class="header-top__localization"><span class="header-top__dropdown">Ru</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="header-bottom">
+    <div class="container">
+      <div class="header-bottom__inner"><a class="header-logo" href="#"><img src="/static/images/logo.png" alt=""></a>
+        <ul class="header-nav">
+          <li class="header-nav__item"><a class="header-nav__link" href="#">О компании</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="#">Новости и акции</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="#">Вода &amp; Кофе</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="#">Производство</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="#">Услуги</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="#">Купить</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="#">Контакты</a></li>
+        </ul>
+        <div class="header-cart">
+          <div class="header-cart__icon"><img src="/static/images/user.png" alt=""></div>
+          <div class="header-cart__icon"><img src="/static/images/cart.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="banner">
+  <figure class="banner-imgset">
+    <div class="banner-imgset__bg" style="background-image: url(/static/images/bg.png);"></div><img class="banner-imgset__img" src="/static/images/bg.png" alt="">
+  </figure>
+  <div class="banner-carousel js-carousel__banner">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="banner-title">Шишкин Лес</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="banner-title">Шишкин Лес 1 - Лес</div>
+        </div>
+        <div class="swiper-slide">
+          <div class="banner-title">Шишкин Лес 2 - Лес 2</div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+<section class="form-order s-pd s-bg__blue">
+  <div class="container">
+    <h2 class="section-title">Быстрый заказ</h2>
+    <p class="section-subtitle">Заполните форму, и мы свяжемся с Вами </p>
+    <form class="rsform js-required" id="order__quick">
+      <div class="rsform-group js-rsform__field rs-check_mark"><span class="rsform-title"></span>
+        <input class="rsform-input" type="text" name="name" placeholder="Ваше имя" data-required="{&quot;type&quot;: &quot;alphabet&quot;,&quot;minL&quot;: 3,&quot;lang&quot;: &quot;ru&quot;}">
+      </div>
+      <div class="rsform-group js-rsform__field rs-check_mark"><span class="rsform-title"></span>
+        <input class="rsform-input" type="tel" name="phone" placeholder="Телефон" data-required="{&quot;type&quot;: &quot;phoneRU&quot;,&quot;message&quot;: &quot;Введите номер телефона&quot;}">
+      </div>
+      <div class="rsform-group js-rsform__field rs-check_mark"><span class="rsform-title"></span>
+        <input class="rsform-input" type="email" name="email" placeholder="Эл. почта" data-required="{&quot;type&quot;: &quot;email&quot;,&quot;message&quot;: &quot;Введите ваш e-mail&quot;}">
+      </div>
+      <button class="rsform-btn btn" type="submit">Отправить</button>
+    </form>
+  </div>
+</section>
+<section class="categories s-pd">
+  <div class="container g-tac">
+    <div class="categories-carousel js-carousel__categories">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="categories-item">
+              <div class="section-title">ВОДА &amp; КОФЕ</div>
+              <div class="categories-item__card"><img class="categories-item__card--img" src="./static/images/category-carousel/1_1.png" alt="ДЛЯ СЕМЬИ"><span class="categories-item__card--title">ДЛЯ СЕМЬИ</span><span class="categories-item__card--subtitle">Бутилированная вода 0,4л – 5л</span></div>
+              <div class="categories-item__card"><img class="categories-item__card--img" src="./static/images/category-carousel/1_2.png" alt="ДЛЯ ДЕТЕЙ"><span class="categories-item__card--title">ДЛЯ ДЕТЕЙ</span><span class="categories-item__card--subtitle">Детская вода «Шишкин Лес»</span></div>
+              <div class="categories-item__card"><img class="categories-item__card--img" src="./static/images/category-carousel/1_3.png" alt="Кофе"><span class="categories-item__card--title">Кофе</span><span class="categories-item__card--subtitle">Зерновой кофе</span></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="categories-item">
+              <div class="section-title">ВОДА &amp; КОФЕ - 2</div>
+              <div class="categories-item__card"><img class="categories-item__card--img" src="./static/images/category-carousel/2_1.png" alt="ДЛЯ СПОРТА"><span class="categories-item__card--title">ДЛЯ СПОРТА</span><span class="categories-item__card--subtitle">Питьевая вода «Шишкин Лес Спорт»</span></div>
+              <div class="categories-item__card"><img class="categories-item__card--img" src="./static/images/category-carousel/2_2.png" alt="ГАЗИРОВАННАЯ"><span class="categories-item__card--title">ГАЗИРОВАННАЯ</span><span class="categories-item__card--subtitle">Газированная вода «Шишкин Лес»</span></div>
+              <div class="categories-item__card"><img class="categories-item__card--img" src="./static/images/category-carousel/2_3.png" alt="МИНЕРАЛЬНАЯ ГАЗИРОВАННАЯ"><span class="categories-item__card--title">МИНЕРАЛЬНАЯ ГАЗИРОВАННАЯ</span><span class="categories-item__card--subtitle">Минеральная газированная вода «Шишкин Лес»</span></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="categories-item">
+              <div class="section-title">ВОДА &amp; КОФЕ - 3</div>
+              <div class="categories-item__card"><img class="categories-item__card--img" src="./static/images/category-carousel/3_1.png" alt="КУЛЕРНАЯ ВОДА 19Л"><span class="categories-item__card--title">КУЛЕРНАЯ ВОДА 19Л</span><span class="categories-item__card--subtitle">Питьевая вода «Шишкин Лес» для вододиспенсеров и помп</span></div>
+              <div class="categories-item__card"><img class="categories-item__card--img" src="./static/images/category-carousel/3_2.png" alt="ОБОРУДОВАНИЕ"><span class="categories-item__card--title">ОБОРУДОВАНИЕ</span><span class="categories-item__card--subtitle">Кулеры, помпы, кофемашины</span></div>
+              <div class="categories-item__card"><img class="categories-item__card--img" src="./static/images/category-carousel/3_3.png" alt="СОПУТСТВУЮЩИЕ ТОВАРЫ"><span class="categories-item__card--title">СОПУТСТВУЮЩИЕ ТОВАРЫ</span><span class="categories-item__card--subtitle">Чай, посуда, стеллажи</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+    <div class="categories-buttons"><a class="btn" href="#">В каталог</a><a class="btn btn-accent" href="#">Вся продукция</a></div>
+  </div>
+</section>
+<section class="services s-pd s-bg__blue">
+  <div class="container g-tac">
+    <div class="section-title">Сервис</div>
+    <div class="services-inner">
+      <div class="services-item">
+        <div class="services-item__hexagon" id="hexagon"><img class="services-item__img" src="./static/images/services/1_1.png"></div>
+        <div class="services-item__title">Опытные доставки</div>
+        <div class="services-item__subtitle">+7 (495) 258-25-58<a href="mailto:info@cone-forest.ru">info@cone-forest.ru</a></div>
+      </div>
+      <div class="services-item">
+        <div class="services-item__hexagon"><img class="services-item__img" src="./static/images/services/1_2.png"></div>
+        <div class="services-item__title">В магазинах</div>
+        <div class="services-item__subtitle">Ищите нас в гипермаркетах, торговых сетях и в магазинах у дома</div>
+      </div>
+      <div class="services-item">
+        <div class="services-item__hexagon"><img class="services-item__img" src="./static/images/services/1_3.png"></div>
+        <div class="services-item__title">Доставка на дом и в офис</div>
+        <div class="services-item__subtitle">+7 (495) 258-25-78<a href="tel:+7 (495) 258-25-78">Сделать заказ                             </a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gallery s-pd">
+  <div class="container g-tac">
+    <div class="gallery-carousel js-carousel__gallery">
+      <div class="swiper-container circle-navs">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide gallery-item">
+            <div class="gallery-item__card" style="background-image: url()"><img class="gallery-item__card--img" src="#"></div>
+            <div class="gallery-item__card"><img class="gallery-item__card--img" src="#"></div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="about s-bg__blue">
+  <div class="container">
+    <div class="about-carousel js-carousel__about">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide about-item">
+            <div class="about-item__col"><img class="about-item__img bottom" src="./static/images/about/1_1.png" alt="О воде">
+            </div>
+            <div class="about-item__col">
+              <div class="section-title bd_l">О воде</div>
+              <div class="about-item__capture">Компания «Шишкин Лес» работает с 1998 года. За эти без малого 20 лет мы добились серьезных успехов – стали одной из лидирующих на отечественном рынке компаний по производству питьевой бутилированной воды. Доверие клиентов – наше главное достижение и источник вдохновения в дальнейшей работе.</div><a class="btn btn-accent" href="#">Далее</a>
+            </div>
+          </div>
+          <div class="swiper-slide about-item">
+            <div class="about-item__col"><img class="about-item__img" src="./static/images/about/1_2.png" alt="О кофе">
+            </div>
+            <div class="about-item__col">
+              <div class="section-title bd_l">О кофе</div>
+              <div class="about-item__capture">Уникальный продукт – все смеси разработаны для Вас в итальянской лаборатории кофе ARC. 3 вида кофе на любой вкус удовлетворят даже самых требовательных кофеманов. Средняя степень обжарки зерна раскрывает все его вкусовые качества. Все виды кофе для каждой смеси обжариваются отдельно, что гарантирует равномерность обжарки.</div><a class="btn btn-accent" href="#">Далее</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="hashtag s-pd">
+  <div class="container g-tac">
+    <div class="section-title">#ШИШКИНЛЕС_МОЯ_ВОДА</div>
+    <div class="hashtag-inner">
+      <div class="hashtag-item"></div>
+      <div class="hashtag-item"></div>
+      <div class="hashtag-item"></div>
+      <div class="hashtag-item"></div>
+      <div class="hashtag-item"></div>
+      <div class="hashtag-item"></div>
+      <div class="hashtag-item"></div>
+      <div class="hashtag-item"></div>
+      <div class="hashtag-item"></div>
+      <div class="hashtag-item"></div>
+    </div>
+  </div>
+</section>
+<footer class="footer"></footer>
+  <script type="text/javascript" src="/static/js/1.js"></script><script type="text/javascript" src="/static/js/app.js"></script></body>
+</html>
