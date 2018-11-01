@@ -1,0 +1,31 @@
+- var menu = ["О компании", "Новости и акции", "Вода & Кофе", "Производство", "Услуги", "Купить", "Контакты"];
+
+header.header
+	.header-top
+		.container
+			.header-top__inner
+				.header-top__contacts заказ воды и кофе В МОСКВЕ 
+					a(href="tel:+7 (495) 258-25-78") +7 (495) 258-25-78
+					| И В САНКТ-ПЕТЕРБУРГЕ 
+					a(href="tel:+7 (812) 448-68-68") +7 (812) 448-68-68 
+				.header-top__region Регион: 
+					span.header-top__dropdown Москва
+				.header-top__localization
+					span.header-top__dropdown Ru
+	.header-bottom
+		.container
+			.header-bottom__inner
+				a.header-logo(href="#")
+					img(src="/static/images/logo.png", alt="")
+				ul.header-nav
+					each link in menu
+						li.header-nav__item
+							a.header-nav__link(href='#')= link
+				.header-cart
+					.header-cart__icon
+						img(src="/static/images/user.png", alt="")
+					.header-cart__icon
+						img(src="/static/images/cart.png", alt="")
+			
+
+

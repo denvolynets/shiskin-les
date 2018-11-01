@@ -1,0 +1,12 @@
+- var banners = ["Шишкин Лес", "Шишкин Лес 1 - Лес", "Шишкин Лес 2 - Лес 2"];
+section.banner
+    figure.banner-imgset
+        div.banner-imgset__bg(style="background-image: url(/static/images/bg.png);")
+        img.banner-imgset__img(src="/static/images/bg.png", alt="")
+    .banner-carousel.js-carousel__banner
+        .swiper-container
+            .swiper-wrapper
+                each banner in banners
+                    .swiper-slide
+                        .banner-title= banner
+            .swiper-pagination

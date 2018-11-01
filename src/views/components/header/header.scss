@@ -1,0 +1,102 @@
+.header {
+	text-transform: uppercase;
+	font-family: $ff_bold;
+
+	&-top {
+		background-color: $c_green;
+		color: $c_white;
+		padding: 20px 0;
+
+		&__inner {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			font-size: $fz_1045;
+		}
+
+		&__contacts {
+			margin-right: 55px;
+
+			a {
+				color: inherit;
+			}
+		}
+
+		&__region {
+			margin-right: 55px;
+		}
+
+		&__dropdown {
+			position: relative;
+			display: inline-flex;
+			align-items: center;
+			cursor: pointer;
+
+			&:after {
+				content: '';
+				@include arrow($c_white, 2px, 4.5px, 'down');
+				margin-left: 5px;
+				position: relative;
+				bottom: 4px;
+			}
+		}
+	}
+
+	&-bottom {
+		color: $c_blue;
+		background-color: $c_white;
+
+		&__inner {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+	}
+
+	&-cart {
+		display: flex;
+
+		&__icon {
+			&:not(:first-child) {
+				margin-left: 11px;
+			}
+			&:last-child {
+				margin-right: 24px;
+			}
+		}
+	}
+
+	&-nav {
+		display: flex;
+		align-items: center;
+
+		&__item {
+			margin-right: 30px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+	&-logo {
+		position: relative;
+		z-index: 3;
+		padding-top: 8px;
+		margin-bottom: -38px;
+		&:before {
+			content: '';
+			position: absolute;
+			left: -17px;
+			right: -17px;
+			bottom: -7px;
+			top: 40%;
+			display: block;
+			background-color: $c_white;
+			box-shadow: 0px 5px 27px -11px rgba(#000, .5);
+			z-index: -1;
+			height: auto;
+			width: auto;
+			border-radius: 5px;
+		}
+	}
+}
