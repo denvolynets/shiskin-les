@@ -84,7 +84,7 @@ module.exports = {
       cssProcessorOptions: {
         safe: true
       }
-    }),
+    })
     // new webpack.ProvidePlugin({
     //   $: 'jquery',
     //   jQuery: 'jquery',

@@ -20,9 +20,7 @@ module.exports = merge(baseWebpackConfig, {
   // cheap-module-eval-source-map is faster for development
   devtool: '#cheap-module-eval-source-map',
   plugins: [
-    new WriteFileWebpackPlugin({
-      test: /^(?!.*(hot)).*/,
-    }),
+    new WriteFileWebpackPlugin(),
     new webpack.DefinePlugin({
       'process.env': config.dev.env
     }),
